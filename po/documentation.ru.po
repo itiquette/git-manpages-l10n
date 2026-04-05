@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Git Documentation\n"
 "Report-Msgid-Bugs-To: jn.avila@free.fr\n"
 "POT-Creation-Date: 2026-02-18 21:42+0100\n"
-"PO-Revision-Date: 2026-03-29 01:09+0000\n"
+"PO-Revision-Date: 2026-04-05 16:37+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
@@ -10727,7 +10727,7 @@ msgstr "$ git bisect bad [КОММИТ]\n"
 
 #. type: Plain text
 #: en/git-bisect-lk2009.adoc:206
-#, fuzzy, priority:100
+#, priority:100
 msgid "and:"
 msgstr "и:"
 
@@ -11791,7 +11791,7 @@ msgstr "Таким образом, у нас останется только:"
 
 #. type: delimited block -
 #: en/git-bisect-lk2009.adoc:794
-#, fuzzy, no-wrap, priority:100
+#, no-wrap, priority:100
 msgid "H-I-J\n"
 msgstr "H-I-J\n"
 
@@ -12359,7 +12359,7 @@ msgstr "Чтобы упростить обсуждение, мы предпол�
 
 #. type: delimited block -
 #: en/git-bisect-lk2009.adoc:1139
-#, fuzzy, ignore-ellipsis, no-wrap, priority:100
+#, ignore-ellipsis, no-wrap, priority:100
 msgid "...-Y-BBC-X1-X2-X3-X4-X5-X6-BFC-Z-...\n"
 msgstr "...-Y-BBC-X1-X2-X3-X4-X5-X6-BFC-Z-...\n"
 
@@ -12545,7 +12545,7 @@ msgstr "Но BBChop не зависит от какой-либо VCS, и для 
 
 #. type: Title -
 #: en/git-bisect-lk2009.adoc:1278
-#, fuzzy, no-wrap, priority:100
+#, no-wrap, priority:100
 msgid "Conclusion"
 msgstr "Заключение"
 
@@ -12605,7 +12605,7 @@ msgstr "Таким образом, git bisect — это безусловное 
 
 #. type: Title -
 #: en/git-bisect-lk2009.adoc:1324
-#, fuzzy, no-wrap, priority:100
+#, no-wrap, priority:100
 msgid "Acknowledgments"
 msgstr "Благодарности"
 
@@ -12777,13 +12777,13 @@ msgstr "Синонимы для --log и --no-log; они устарели и б
 
 #. type: Labeled list
 #: en/git-fmt-merge-msg.adoc:43 en/git-commit-tree.adoc:53
-#, fuzzy, no-wrap, priority:100
+#, no-wrap, priority:100
 msgid "-m <message>"
 msgstr "-m <сообщение>"
 
 #. type: Labeled list
 #: en/git-fmt-merge-msg.adoc:44
-#, fuzzy, no-wrap, placeholders:'--message', priority:100
+#, no-wrap, placeholders:'--message', priority:100
 msgid "--message <message>"
 msgstr "--message <сообщение>"
 
@@ -12813,7 +12813,7 @@ msgstr "-F <файл>"
 
 #. type: Labeled list
 #: en/git-fmt-merge-msg.adoc:53
-#, fuzzy, no-wrap, placeholders:'--file', priority:100
+#, no-wrap, placeholders:'--file', priority:100
 msgid "--file <file>"
 msgstr "--file <файл>"
 
@@ -13423,7 +13423,7 @@ msgstr "Двухсторонние операции между репозито�
 
 #. type: Title -
 #: en/config.adoc:2 en/git-worktree.adoc:321
-#, fuzzy, no-wrap, priority:240
+#, no-wrap, priority:240
 msgid "CONFIGURATION FILE"
 msgstr "ФАЙЛ КОНФИГУРАЦИИ"
 
@@ -13465,7 +13465,7 @@ msgstr "Разделы могут быть дополнительно разде
 
 #. type: delimited block -
 #: en/config.adoc:43
-#, fuzzy, no-wrap, priority:100
+#, no-wrap, priority:100
 msgid "\t[section \"subsection\"]\n"
 msgstr "\t[раздел \"подраздел\"]\n"
 
@@ -13531,7 +13531,7 @@ msgstr "Содержимое включаемого файла вставляе�
 
 #. type: Title ~
 #: en/config.adoc:106
-#, fuzzy, no-wrap, priority:100
+#, no-wrap, priority:100
 msgid "Conditional includes"
 msgstr "Условные включения"
 
@@ -13627,7 +13627,7 @@ msgstr "Если шаблон заканчивается на `/`, автома�
 
 #. type: Labeled list
 #: en/config.adoc:163
-#, fuzzy, no-wrap, priority:100
+#, no-wrap, priority:100
 msgid "`hasconfig:remote.*.url`"
 msgstr "`hasconfig:remote.*.url`"
 
@@ -14087,7 +14087,7 @@ msgstr "Работать тихо, сообщать только об ошибк
 
 #. type: Labeled list
 #: en/git-clean.adoc:62
-#, fuzzy, no-wrap, priority:100
+#, no-wrap, priority:100
 msgid "-e <pattern>"
 msgstr "-e <шаблон>"
 
@@ -14123,7 +14123,7 @@ msgstr "Удалять только файлы, игнорируемые Git. Э
 
 #. type: Title -
 #: en/git-clean.adoc:80
-#, fuzzy, no-wrap, priority:100
+#, no-wrap, priority:100
 msgid "Interactive mode"
 msgstr "Интерактивный режим"
 
@@ -14203,7 +14203,7 @@ msgstr "Это показывает файлы и каталоги для уда
 
 #. type: Labeled list
 #: en/git-clean.adoc:126
-#, fuzzy, no-wrap, priority:100
+#, no-wrap, priority:100
 msgid "ask each"
 msgstr "ask each"
 
