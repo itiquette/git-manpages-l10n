@@ -8,7 +8,7 @@ with open('po4a.conf.new', 'w') as f:
     langs = [ l[17:-3] for l in glob.glob('po/documentation.*.po')]
     langs.sort()
     f.write(' '.join(langs))
-    f.write('\n[po4a_paths] po/documentation.pot $lang:po/documentation.$lang.po\n[options] opt: " -k 80" opt:" -o cleanspaces=1" opt:" --wrap-po no" opt:"-o \'style=[synopsis%]\'"\n')
+    f.write('\n[po4a_paths] po/documentation.pot $lang:po/documentation.$lang.po\n[options] opt: " -k 80" opt:" -o cleanspaces=1" opt:" -otablecells=1" opt:" --wrap-po no" opt:"-o \'style=[synopsis%]\'"\n')
     for source in glob.glob('en/**/*.adoc', recursive=True):
         source = source[3:]
         f.write(f"[type: asciidoc] en/{source} $lang:./$lang/{source}")

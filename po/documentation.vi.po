@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: jn.avila@free.fr\n"
-"POT-Creation-Date: 2026-04-05 18:05+0200\n"
+"POT-Creation-Date: 2026-04-06 15:16+0200\n"
 "PO-Revision-Date: 2023-05-18 17:58+0000\n"
 "Last-Translator: Ky Bui Van <ky.buivan.dev@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47503,9 +47503,9 @@ msgstr ""
 msgid "tracked file that is skip-worktree"
 msgstr "Gỡ bỏ các tập tin không được theo dõi từ cây làm việc"
 
-#. type: Labeled list
-#: en/git-ls-files.adoc:157
-#, no-wrap, priority:80
+#. type: Table
+#: en/git-ls-files.adoc:157 en/git-status.adoc:226 en/git-status.adoc:233
+#, no-wrap, priority:280
 msgid "M"
 msgstr ""
 
@@ -47515,9 +47515,9 @@ msgstr ""
 msgid "tracked file that is unmerged"
 msgstr ""
 
-#. type: Labeled list
-#: en/git-ls-files.adoc:158
-#, no-wrap, priority:80
+#. type: Table
+#: en/git-ls-files.adoc:158 en/git-status.adoc:230 en/git-status.adoc:236
+#, no-wrap, priority:280
 msgid "R"
 msgstr ""
 
@@ -47527,9 +47527,9 @@ msgstr ""
 msgid "tracked file with unstaged removal/deletion"
 msgstr ""
 
-#. type: Labeled list
-#: en/git-ls-files.adoc:159
-#, no-wrap, priority:80
+#. type: Table
+#: en/git-ls-files.adoc:159 en/git-status.adoc:231 en/git-status.adoc:237
+#, no-wrap, priority:280
 msgid "C"
 msgstr ""
 
@@ -47551,9 +47551,9 @@ msgstr ""
 msgid "untracked paths which are part of file/directory conflicts which prevent checking out tracked files"
 msgstr ""
 
-#. type: Labeled list
-#: en/git-ls-files.adoc:162
-#, no-wrap, priority:80
+#. type: Table
+#: en/git-ls-files.adoc:162 en/git-status.adoc:245
+#, no-wrap, priority:280
 msgid "?"
 msgstr ""
 
@@ -47563,9 +47563,9 @@ msgstr ""
 msgid "untracked file"
 msgstr "Không có tập tin nào chưa được theo dõi.\n"
 
-#. type: Labeled list
-#: en/git-ls-files.adoc:163
-#, no-wrap, priority:80
+#. type: Table
+#: en/git-ls-files.adoc:163 en/git-status.adoc:239 en/git-status.adoc:240 en/git-status.adoc:241 en/git-status.adoc:242 en/git-status.adoc:244
+#, no-wrap, priority:280
 msgid "U"
 msgstr ""
 
@@ -65210,33 +65210,211 @@ msgid "updated but unmerged"
 msgstr ""
 
 #. type: Table
-#: en/git-status.adoc:247
+#: en/git-status.adoc:224
+#, fuzzy, no-wrap, priority:280
+#| msgid "-X"
+msgid "X"
+msgstr "-X"
+
+#. type: Table
+#: en/git-status.adoc:224
 #, no-wrap, priority:280
-msgid ""
-"|X        |  Y     |Meaning\n"
-"|         |[AMD]   |not updated\n"
-"|M        |[ MTD]  |updated in index\n"
-"|T        |[ MTD]  |type changed in index\n"
-"|A        |[ MTD]  |added to index\n"
-"|D        |        |deleted from index\n"
-"|R        |[ MTD]  |renamed in index\n"
-"|C        |[ MTD]  |copied in index\n"
-"|[MTARC]  |        |index and work tree matches\n"
-"|[ MTARC] |M       |work tree changed since index\n"
-"|[ MTARC] |T       |type changed in work tree since index\n"
-"|[ MTARC] |D       |deleted in work tree\n"
-"|         |R       |renamed in work tree\n"
-"|         |C       |copied in work tree\n"
-"|D        |D       |unmerged, both deleted\n"
-"|A        |U       |unmerged, added by us\n"
-"|U        |D       |unmerged, deleted by them\n"
-"|U        |A       |unmerged, added by them\n"
-"|D        |U       |unmerged, deleted by us\n"
-"|A        |A       |unmerged, both added\n"
-"|U        |U       |unmerged, both modified\n"
-"|?        |?       |untracked\n"
-"|!        |!       |ignored\n"
+msgid "Y"
 msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:225 en/git-status.adoc:352 en/git-status.adoc:394
+#, no-wrap, priority:280
+msgid "Meaning"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:225
+#, no-wrap, priority:280
+msgid "[AMD]"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:226
+#, fuzzy, no-wrap, priority:280
+#| msgid "update"
+msgid "not updated"
+msgstr "update"
+
+#. type: Table
+#: en/git-status.adoc:226 en/git-status.adoc:227 en/git-status.adoc:228 en/git-status.adoc:230 en/git-status.adoc:231
+#, no-wrap, priority:280
+msgid "[ MTD]"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:227
+#, fuzzy, no-wrap, priority:280
+#| msgid "git-update-index(1)"
+msgid "updated in index"
+msgstr "git-update-index(1)"
+
+#. type: Table
+#: en/git-status.adoc:227 en/git-status.adoc:234
+#, fuzzy, no-wrap, priority:280
+#| msgid "-T"
+msgid "T"
+msgstr "-T"
+
+#. type: Table
+#: en/git-status.adoc:228
+#, no-wrap, priority:280
+msgid "type changed in index"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:228 en/git-status.adoc:239 en/git-status.adoc:241 en/git-status.adoc:243
+#, fuzzy, no-wrap, priority:280
+#| msgid "-A"
+msgid "A"
+msgstr "-A"
+
+#. type: Table
+#: en/git-status.adoc:229
+#, no-wrap, priority:280
+msgid "added to index"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:229 en/git-status.adoc:235 en/git-status.adoc:238 en/git-status.adoc:240 en/git-status.adoc:242
+#, fuzzy, no-wrap, priority:280
+#| msgid "-D"
+msgid "D"
+msgstr "-D"
+
+#. type: Table
+#: en/git-status.adoc:230
+#, no-wrap, priority:280
+msgid "deleted from index"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:231
+#, fuzzy, no-wrap, priority:280
+msgid "renamed in index"
+msgstr "'rebase'"
+
+#. type: Table
+#: en/git-status.adoc:232
+#, no-wrap, priority:280
+msgid "copied in index"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:232
+#, no-wrap, priority:280
+msgid "[MTARC]"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:233
+#, no-wrap, priority:280
+msgid "index and work tree matches"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:233 en/git-status.adoc:234 en/git-status.adoc:235
+#, no-wrap, priority:280
+msgid "[ MTARC]"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:234
+#, no-wrap, priority:280
+msgid "work tree changed since index"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:235
+#, fuzzy, no-wrap, priority:280
+msgid "type changed in work tree since index"
+msgstr "So sánh các tập tin trong cây làm việc và bảng mục lục"
+
+#. type: Table
+#: en/git-status.adoc:236
+#, fuzzy, no-wrap, priority:280
+msgid "deleted in work tree"
+msgstr "linkgit:git-worktree[1]"
+
+#. type: Table
+#: en/git-status.adoc:237
+#, fuzzy, no-wrap, priority:280
+msgid "renamed in work tree"
+msgstr "linkgit:git-worktree[1]"
+
+#. type: Table
+#: en/git-status.adoc:238
+#, fuzzy, no-wrap, priority:280
+msgid "copied in work tree"
+msgstr "linkgit:git-worktree[1]"
+
+#. type: Table
+#: en/git-status.adoc:239
+#, no-wrap, priority:280
+msgid "unmerged, both deleted"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:240
+#, no-wrap, priority:280
+msgid "unmerged, added by us"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:241
+#, no-wrap, priority:280
+msgid "unmerged, deleted by them"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:242
+#, no-wrap, priority:280
+msgid "unmerged, added by them"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:243
+#, no-wrap, priority:280
+msgid "unmerged, deleted by us"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:244
+#, fuzzy, no-wrap, priority:280
+msgid "unmerged, both added"
+msgstr "--merge-base"
+
+#. type: Table
+#: en/git-status.adoc:245
+#, fuzzy, no-wrap, priority:280
+#| msgid "--modified"
+msgid "unmerged, both modified"
+msgstr "--modified"
+
+#. type: Table
+#: en/git-status.adoc:246
+#, fuzzy, no-wrap, priority:280
+#| msgid "--untracked"
+msgid "untracked"
+msgstr "--untracked"
+
+#. type: Table
+#: en/git-status.adoc:246
+#, no-wrap, priority:280
+msgid "!"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:247
+#, fuzzy, no-wrap, priority:280
+#| msgid "--ignored"
+msgid "ignored"
+msgstr "--ignored"
 
 #. type: Plain text
 #: en/git-status.adoc:250
@@ -65360,15 +65538,79 @@ msgid "If `--branch` is given, a series of header lines are printed with informa
 msgstr ""
 
 #. type: Table
+#: en/git-status.adoc:313
+#, no-wrap, priority:280
+msgid "Line"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:314
+#, fuzzy, no-wrap, priority:280
+#| msgid "notes"
+msgid "Notes"
+msgstr "ghi chú"
+
+#. type: Table
+#: en/git-status.adoc:314
+#, no-wrap, placeholders:'branch.oid', priority:280
+msgid "`# branch.oid <commit> \\"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:314
+#, no-wrap, priority:280
+msgid "(initial)`"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:315
+#, no-wrap, priority:280
+msgid "Current commit."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:315
+#, fuzzy, no-wrap, placeholders:'branch.head', priority:280
+msgid "`# branch.head <branch> \\"
+msgstr "nhánh-mới"
+
+#. type: Table
+#: en/git-status.adoc:315
+#, fuzzy, no-wrap, priority:280
+#| msgid "`--detach`"
+msgid "(detached)`"
+msgstr "`--detach`"
+
+#. type: Table
+#: en/git-status.adoc:316
+#, fuzzy, no-wrap, priority:280
+msgid "Current branch."
+msgstr "Những nhánh ghi lại"
+
+#. type: Table
+#: en/git-status.adoc:316
+#, no-wrap, placeholders:'branch.upstream', priority:280
+msgid "`# branch.upstream <upstream-branch>`"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:317
+#, no-wrap, priority:280
+msgid "If upstream is set."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:317
+#, no-wrap, placeholders:'branch.ab', priority:280
+msgid "`# branch.ab +<ahead> -<behind>`"
+msgstr ""
+
+#. type: Table
 #: en/git-status.adoc:319
-#, no-wrap, placeholders:'branch.oid':'branch.head':'branch.upstream':'branch.ab', priority:280
+#, no-wrap, priority:280
 msgid ""
-"|Line                                     |Notes\n"
-"|`# branch.oid <commit> \\| (initial)`     |Current commit.\n"
-"|`# branch.head <branch> \\| (detached)`   |Current branch.\n"
-"|`# branch.upstream <upstream-branch>`    |If upstream is set.\n"
-"|`# branch.ab +<ahead> -<behind>`         |If upstream is set and\n"
-"\t\t\t\t\t  the commit is present.\n"
+"If upstream is set and\n"
+"\t\t\t\t\t  the commit is present."
 msgstr ""
 
 #. type: Title ^
@@ -65426,58 +65668,162 @@ msgid "2 <XY> <sub> <mH> <mI> <mW> <hH> <hI> <X><score> <path><sep><origPath>\n"
 msgstr ""
 
 #. type: Table
-#: en/git-status.adoc:362
-#, ignore-ellipsis, no-wrap, priority:280
+#: en/git-status.adoc:350 en/git-status.adoc:393
+#, no-wrap, priority:280
+msgid "Field"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:353 en/git-status.adoc:394
+#, no-wrap, priority:280
+msgid "_<XY>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:357
+#, no-wrap, priority:280
 msgid ""
-"|Field       | Meaning\n"
-"\n"
-"|_<XY>_\n"
-"|A 2 character field containing the staged and\n"
+"A 2 character field containing the staged and\n"
 "unstaged XY values described in the short format,\n"
 "with unchanged indicated by a \".\" rather than\n"
-"a space.\n"
-"|_<sub>_\n"
-"|A 4 character field describing the submodule state.\n"
+"a space."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:358 en/git-status.adoc:396
+#, fuzzy, no-wrap, priority:280
+msgid "_<sub>_"
+msgstr "--summary"
+
+#. type: Table
+#: en/git-status.adoc:365
+#, ignore-ellipsis, no-wrap, priority:280
+msgid ""
+"A 4 character field describing the submodule state.\n"
 "\"N...\" when the entry is not a submodule.\n"
 "`S<c><m><u>` when the entry is a submodule.\n"
 "\n"
+"* _<c>_ is \"C\" if the commit changed; otherwise \".\".\n"
+"* _<m>_ is \"M\" if it has tracked changes; otherwise \".\".\n"
+"* _<u>_ is \"U\" if there are untracked changes; otherwise \".\"."
 msgstr ""
 
 #. type: Table
-#: en/git-status.adoc:363
+#: en/git-status.adoc:365
 #, no-wrap, priority:280
-msgid "_<c>_ is \"C\" if the commit changed; otherwise \".\".\n"
+msgid "_<mH>_"
 msgstr ""
 
 #. type: Table
-#: en/git-status.adoc:364
+#: en/git-status.adoc:366
 #, no-wrap, priority:280
-msgid "_<m>_ is \"M\" if it has tracked changes; otherwise \".\".\n"
+msgid "The octal file mode in HEAD."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:366
+#, no-wrap, priority:280
+msgid "_<mI>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:367
+#, fuzzy, no-wrap, priority:280
+msgid "The octal file mode in the index."
+msgstr "Thêm nội dung tập tin vào bảng mục lục"
+
+#. type: Table
+#: en/git-status.adoc:367 en/git-status.adoc:401
+#, no-wrap, priority:280
+msgid "_<mW>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:368 en/git-status.adoc:402
+#, fuzzy, no-wrap, priority:280
+msgid "The octal file mode in the worktree."
+msgstr "Sao chép các tập tin từ mục lục ra cây làm việc"
+
+#. type: Table
+#: en/git-status.adoc:368
+#, no-wrap, priority:280
+msgid "_<hH>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:369
+#, no-wrap, priority:280
+msgid "The object name in HEAD."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:369
+#, no-wrap, priority:280
+msgid "_<hI>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:370
+#, no-wrap, priority:280
+msgid "The object name in the index."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:370
+#, no-wrap, priority:280
+msgid "_<X><score>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:373
+#, no-wrap, priority:280
+msgid ""
+"The rename or copy score (denoting the percentage\n"
+"of similarity between the source and target of the\n"
+"move or copy). For example \"R100\" or \"C75\"."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:374 en/git-status.adoc:405
+#, fuzzy, no-wrap, priority:280
+#| msgid "<path>"
+msgid "_<path>_"
+msgstr "<đường-dẫn>"
+
+#. type: Table
+#: en/git-status.adoc:375
+#, no-wrap, priority:280
+msgid "The pathname.  In a renamed/copied entry, this is the target path."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:376
+#, no-wrap, priority:280
+msgid "_<sep>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:379
+#, no-wrap, placeholders:'`-z`', priority:280
+msgid ""
+"When the `-z` option is used, the 2 pathnames are separated\n"
+"with a _NUL_ (ASCII 0x00) byte; otherwise, a _TAB_ (ASCII 0x09)\n"
+"byte separates them."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:380
+#, no-wrap, priority:280
+msgid "_<origPath>_"
 msgstr ""
 
 #. type: Table
 #: en/git-status.adoc:383
-#, no-wrap, placeholders:'`-z`', priority:280
+#, no-wrap, priority:280
 msgid ""
-"_<u>_ is \"U\" if there are untracked changes; otherwise \".\".\n"
-"|_<mH>_       |The octal file mode in HEAD.\n"
-"|_<mI>_       |The octal file mode in the index.\n"
-"|_<mW>_       |The octal file mode in the worktree.\n"
-"|_<hH>_       |The object name in HEAD.\n"
-"|_<hI>_       |The object name in the index.\n"
-"|_<X><score>_ |The rename or copy score (denoting the percentage\n"
-"of similarity between the source and target of the\n"
-"move or copy). For example \"R100\" or \"C75\".\n"
-"|_<path>_\n"
-"|The pathname.  In a renamed/copied entry, this is the target path.\n"
-"|_<sep>_\n"
-"|When the `-z` option is used, the 2 pathnames are separated\n"
-"with a _NUL_ (ASCII 0x00) byte; otherwise, a _TAB_ (ASCII 0x09)\n"
-"byte separates them.\n"
-"|_<origPath>_\n"
-"|The pathname in the commit at HEAD or in the index.\n"
+"The pathname in the commit at HEAD or in the index.\n"
 "This is only present in a renamed/copied entry, and\n"
-"tells where the renamed/copied contents came from.\n"
+"tells where the renamed/copied contents came from."
 msgstr ""
 
 #. type: Plain text
@@ -65493,22 +65839,97 @@ msgid "u <XY> <sub> <m1> <m2> <m3> <mW> <h1> <h2> <h3> <path>\n"
 msgstr ""
 
 #. type: Table
-#: en/git-status.adoc:406
+#: en/git-status.adoc:396
 #, no-wrap, priority:280
 msgid ""
-"|Field       |Meaning\n"
-"|_<XY>_      |A 2 character field describing the conflict type\n"
-"\t    as described in the short format.\n"
-"|_<sub>_     |A 4 character field describing the submodule state\n"
-"\t    as described above.\n"
-"|_<m1>_      |The octal file mode in stage 1.\n"
-"|_<m2>_      |The octal file mode in stage 2.\n"
-"|_<m3>_      |The octal file mode in stage 3.\n"
-"|_<mW>_      |The octal file mode in the worktree.\n"
-"|_<h1>_      |The object name in stage 1.\n"
-"|_<h2>_      |The object name in stage 2.\n"
-"|_<h3>_      |The object name in stage 3.\n"
-"|_<path>_    |The pathname.\n"
+"A 2 character field describing the conflict type\n"
+"\t    as described in the short format."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:398
+#, no-wrap, priority:280
+msgid ""
+"A 4 character field describing the submodule state\n"
+"\t    as described above."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:398
+#, no-wrap, priority:280
+msgid "_<m1>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:399
+#, no-wrap, priority:280
+msgid "The octal file mode in stage 1."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:399
+#, no-wrap, priority:280
+msgid "_<m2>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:400
+#, no-wrap, priority:280
+msgid "The octal file mode in stage 2."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:400
+#, no-wrap, priority:280
+msgid "_<m3>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:401
+#, no-wrap, priority:280
+msgid "The octal file mode in stage 3."
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:402
+#, no-wrap, priority:280
+msgid "_<h1>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:403
+#, fuzzy, no-wrap, priority:280
+msgid "The object name in stage 1."
+msgstr "Cập nhật tên đối tượng được lưu trong một tham chiếu một cách an toàn"
+
+#. type: Table
+#: en/git-status.adoc:403
+#, no-wrap, priority:280
+msgid "_<h2>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:404
+#, fuzzy, no-wrap, priority:280
+msgid "The object name in stage 2."
+msgstr "Cập nhật tên đối tượng được lưu trong một tham chiếu một cách an toàn"
+
+#. type: Table
+#: en/git-status.adoc:404
+#, no-wrap, priority:280
+msgid "_<h3>_"
+msgstr ""
+
+#. type: Table
+#: en/git-status.adoc:405
+#, fuzzy, no-wrap, priority:280
+msgid "The object name in stage 3."
+msgstr "Cập nhật tên đối tượng được lưu trong một tham chiếu một cách an toàn"
+
+#. type: Table
+#: en/git-status.adoc:406
+#, no-wrap, priority:280
+msgid "The pathname."
 msgstr ""
 
 #. type: Title ^
