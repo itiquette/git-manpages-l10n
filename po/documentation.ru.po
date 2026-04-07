@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Git Documentation\n"
 "Report-Msgid-Bugs-To: jn.avila@free.fr\n"
 "POT-Creation-Date: 2026-04-06 15:16+0200\n"
-"PO-Revision-Date: 2026-03-29 01:09+0000\n"
+"PO-Revision-Date: 2026-04-07 00:55+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
@@ -19168,15 +19168,15 @@ msgstr "Если вы хотите избавиться от зависимос�
 
 #. type: Labeled list
 #: en/git-clone.adoc:107 en/git-submodule.adoc:419
-#, fuzzy, no-wrap, placeholders:'`--reference=', priority:300
+#, no-wrap, placeholders:'`--reference=', priority:300
 msgid "`--reference=<repository>`"
-msgstr "--reference <репозиторий>"
+msgstr "`--reference=<репозиторий>`"
 
 #. type: Labeled list
 #: en/git-clone.adoc:108
-#, fuzzy, no-wrap, placeholders:'`--reference-if-able=', priority:300
+#, no-wrap, placeholders:'`--reference-if-able=', priority:300
 msgid "`--reference-if-able=<repository>`"
-msgstr "`--reference[-if-able] <репозиторий>`"
+msgstr "`--reference-if-able=<репозиторий>`"
 
 #. type: Plain text
 #: en/git-clone.adoc:118
