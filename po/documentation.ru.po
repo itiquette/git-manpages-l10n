@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Git Documentation\n"
 "Report-Msgid-Bugs-To: jn.avila@free.fr\n"
 "POT-Creation-Date: 2026-04-06 15:16+0200\n"
-"PO-Revision-Date: 2026-04-07 00:55+0000\n"
+"PO-Revision-Date: 2026-04-08 08:09+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
@@ -14233,7 +14233,7 @@ msgstr "справка"
 
 #. type: Plain text
 #: en/git-clean.adoc:139
-#, fuzzy, placeholders:'git-clean', priority:10
+#, placeholders:'git-clean', priority:10
 msgid "Show brief usage of interactive git-clean."
 msgstr "Показать краткое использование интерактивного git-clean."
 
@@ -19336,15 +19336,15 @@ msgstr "Создать зеркало исходного репозитория.
 
 #. type: Labeled list
 #: en/git-clone.adoc:226
-#, fuzzy, no-wrap, priority:300
+#, no-wrap, priority:300
 msgid "`-o<name>`"
-msgstr "`-o` _<имя>_"
+msgstr "`-o<имя>`"
 
 #. type: Labeled list
 #: en/git-clone.adoc:227
-#, fuzzy, no-wrap, placeholders:'`--origin=', priority:300
+#, no-wrap, placeholders:'`--origin=', priority:300
 msgid "`--origin=<name>`"
-msgstr "`--origin` _<имя>_"
+msgstr "`--origin=<имя>`"
 
 #. type: Plain text
 #: en/git-clone.adoc:231
@@ -19354,15 +19354,15 @@ msgstr "Вместо имени `origin` для вышестоящего реп�
 
 #. type: Labeled list
 #: en/git-clone.adoc:232
-#, fuzzy, no-wrap, priority:300
+#, no-wrap, priority:300
 msgid "`-b<name>`"
-msgstr "`-b` _<имя>_"
+msgstr "`-b<имя>`"
 
 #. type: Labeled list
 #: en/git-clone.adoc:233
-#, fuzzy, no-wrap, placeholders:'`--branch=', priority:300
+#, no-wrap, placeholders:'`--branch=', priority:300
 msgid "`--branch=<name>`"
-msgstr "`--branch` _<имя>_"
+msgstr "`--branch=<имя>`"
 
 #. type: Plain text
 #: en/git-clone.adoc:239
@@ -19390,9 +19390,9 @@ msgstr "`-u` _<upload-pack>_"
 
 #. type: Labeled list
 #: en/git-clone.adoc:250
-#, fuzzy, no-wrap, placeholders:'`--upload-pack=', priority:300
+#, no-wrap, placeholders:'`--upload-pack=', priority:300
 msgid "`--upload-pack=<upload-pack>`"
-msgstr "`--upload-pack <пакет-отправки>`"
+msgstr "`--upload-pack=<пакет-отправки>`"
 
 #. type: Plain text
 #: en/git-clone.adoc:253
@@ -19408,15 +19408,15 @@ msgstr "Задаёт каталог с шаблонами. (См. раздел �
 
 #. type: Labeled list
 #: en/git-clone.adoc:258
-#, fuzzy, no-wrap, priority:300
+#, no-wrap, priority:300
 msgid "`-c<key>=<value>`"
-msgstr "`-c` `<ключ>=<значение>`"
+msgstr "`-c<ключ>=<значение>`"
 
 #. type: Labeled list
 #: en/git-clone.adoc:259
-#, fuzzy, no-wrap, placeholders:'`--config=', priority:300
+#, no-wrap, placeholders:'`--config=', priority:300
 msgid "`--config=<key>=<value>`"
-msgstr "`--config` `<ключ>=<значение>`"
+msgstr "`--config=<ключ>=<значение>`"
 
 #. type: Plain text
 #: en/git-clone.adoc:268
@@ -19582,9 +19582,9 @@ msgstr "Задаёт формат хранения ссылок репозито
 
 #. type: Labeled list
 #: en/git-clone.adoc:357 en/git-submodule.adoc:455
-#, fuzzy, no-wrap, priority:300
+#, no-wrap, priority:300
 msgid "`-j<n>`"
-msgstr "`-j <n>`"
+msgstr "`-j<n>`"
 
 #. type: Labeled list
 #: en/git-clone.adoc:358 en/git-submodule.adoc:456 en/fetch-options.adoc:253
@@ -42352,9 +42352,9 @@ msgstr "`oneline`"
 
 #. type: synopsis
 #: en/pretty-formats.adoc:26
-#, fuzzy, priority:260
+#, priority:260
 msgid "<hash> <title-line>"
-msgstr "<хеш> <строка-заголовка>\n"
+msgstr "<хеш> <строка-заголовка>"
 
 #. type: synopsis
 #: en/pretty-formats.adoc:29
@@ -42370,17 +42370,15 @@ msgstr "`short`"
 
 #. type: synopsis
 #: en/pretty-formats.adoc:36
-#, fuzzy, priority:260
+#, priority:260
 msgid "commit <hash> Author: <author>"
-msgstr ""
-"commit <хеш>\n"
-"Author: <автор>\n"
+msgstr "commit <хеш> Author: <автор>"
 
 #. type: synopsis
 #: en/pretty-formats.adoc:38 en/pretty-formats.adoc:49 en/pretty-formats.adoc:62
-#, fuzzy, no-wrap, priority:260
+#, no-wrap, priority:260
 msgid "    <title-line>\n"
-msgstr "<строка-заголовка>\n"
+msgstr "    <строка-заголовка>\n"
 
 #. type: Labeled list
 #: en/pretty-formats.adoc:40
@@ -42390,18 +42388,15 @@ msgstr "`medium`"
 
 #. type: synopsis
 #: en/pretty-formats.adoc:47
-#, fuzzy, priority:260
+#, priority:260
 msgid "commit <hash> Author: <author> Date: <author-date>"
-msgstr ""
-"commit <хеш>\n"
-"Author: <автор>\n"
-"Date:   <дата-создания>\n"
+msgstr "commit <хеш> Author: <автор> Date: <дата-автора>"
 
 #. type: synopsis
 #: en/pretty-formats.adoc:51 en/pretty-formats.adoc:64
-#, fuzzy, no-wrap, priority:260
+#, no-wrap, priority:260
 msgid "    <full-commit-message>\n"
-msgstr "<полное-сообщение-коммита>"
+msgstr "    <полное-сообщение-коммита>\n"
 
 #. type: Labeled list
 #: en/pretty-formats.adoc:53 en/config/log.adoc:29
@@ -42437,15 +42432,15 @@ msgstr ""
 
 #. type: synopsis
 #: en/pretty-formats.adoc:77
-#, fuzzy, no-wrap, priority:260
+#, no-wrap, priority:260
 msgid "     <title-line>\n"
-msgstr "<строка-заголовка>\n"
+msgstr "     <строка-заголовка>\n"
 
 #. type: synopsis
 #: en/pretty-formats.adoc:79
-#, fuzzy, no-wrap, priority:260
+#, no-wrap, priority:260
 msgid "     <full-commit-message>\n"
-msgstr "<полное-сообщение-коммита>"
+msgstr "     <полное-сообщение-коммита>\n"
 
 #. type: Labeled list
 #: en/pretty-formats.adoc:81
@@ -65943,10 +65938,9 @@ msgstr ""
 
 #. type: Table
 #: en/git-status.adoc:224
-#, fuzzy, no-wrap, priority:280
-#| msgid "-X"
+#, no-wrap, priority:280
 msgid "X"
-msgstr "-X"
+msgstr "X"
 
 #. type: Table
 #: en/git-status.adoc:224
@@ -65956,10 +65950,9 @@ msgstr ""
 
 #. type: Table
 #: en/git-status.adoc:225 en/git-status.adoc:352 en/git-status.adoc:394
-#, fuzzy, no-wrap, priority:280
-#| msgid "'remaining'"
+#, no-wrap, priority:280
 msgid "Meaning"
-msgstr "'remaining'"
+msgstr "Значение"
 
 #. type: Table
 #: en/git-status.adoc:225
@@ -65969,10 +65962,9 @@ msgstr ""
 
 #. type: Table
 #: en/git-status.adoc:226
-#, fuzzy, no-wrap, priority:280
-#| msgid "update"
+#, no-wrap, priority:280
 msgid "not updated"
-msgstr "update"
+msgstr "не обновлено"
 
 #. type: Table
 #: en/git-status.adoc:226 en/git-status.adoc:227 en/git-status.adoc:228 en/git-status.adoc:230 en/git-status.adoc:231
@@ -65989,10 +65981,9 @@ msgstr "git-update-index(1)"
 
 #. type: Table
 #: en/git-status.adoc:227 en/git-status.adoc:234
-#, fuzzy, no-wrap, priority:280
-#| msgid "-T"
+#, no-wrap, priority:280
 msgid "T"
-msgstr "-T"
+msgstr "T"
 
 #. type: Table
 #: en/git-status.adoc:228
@@ -66002,10 +65993,9 @@ msgstr ""
 
 #. type: Table
 #: en/git-status.adoc:228 en/git-status.adoc:239 en/git-status.adoc:241 en/git-status.adoc:243
-#, fuzzy, no-wrap, priority:280
-#| msgid "-A"
+#, no-wrap, priority:280
 msgid "A"
-msgstr "-A"
+msgstr "A"
 
 #. type: Table
 #: en/git-status.adoc:229
@@ -66016,10 +66006,9 @@ msgstr "добавляемое содержимое"
 
 #. type: Table
 #: en/git-status.adoc:229 en/git-status.adoc:235 en/git-status.adoc:238 en/git-status.adoc:240 en/git-status.adoc:242
-#, fuzzy, no-wrap, priority:280
-#| msgid "-D"
+#, no-wrap, priority:280
 msgid "D"
-msgstr "-D"
+msgstr "D"
 
 #. type: Table
 #: en/git-status.adoc:230
@@ -66029,10 +66018,9 @@ msgstr ""
 
 #. type: Table
 #: en/git-status.adoc:231
-#, fuzzy, no-wrap, priority:280
-#| msgid "renamed"
+#, no-wrap, priority:280
 msgid "renamed in index"
-msgstr "переименовано"
+msgstr "переименовано в индексе"
 
 #. type: Table
 #: en/git-status.adoc:232
@@ -66284,10 +66272,9 @@ msgstr ""
 
 #. type: Table
 #: en/git-status.adoc:314
-#, fuzzy, no-wrap, priority:280
-#| msgid "notes"
+#, no-wrap, priority:280
 msgid "Notes"
-msgstr "заметки"
+msgstr "Заметки"
 
 #. type: Table
 #: en/git-status.adoc:314
@@ -66309,9 +66296,9 @@ msgstr ""
 
 #. type: Table
 #: en/git-status.adoc:315
-#, fuzzy, no-wrap, placeholders:'branch.head', priority:280
+#, no-wrap, placeholders:'branch.head', priority:280
 msgid "`# branch.head <branch> \\"
-msgstr "`--initial-branch=<имя-ветки>`"
+msgstr "`# branch.head <ветка> \\"
 
 #. type: Table
 #: en/git-status.adoc:315
@@ -66322,10 +66309,9 @@ msgstr "`--detach`"
 
 #. type: Table
 #: en/git-status.adoc:316
-#, fuzzy, no-wrap, priority:280
-#| msgid "Rewrite branches."
+#, no-wrap, priority:280
 msgid "Current branch."
-msgstr "Перезапись веток."
+msgstr "Текущая ветка."
 
 #. type: Table
 #: en/git-status.adoc:316
@@ -66529,10 +66515,9 @@ msgstr ""
 
 #. type: Table
 #: en/git-status.adoc:374 en/git-status.adoc:405
-#, fuzzy, no-wrap, priority:280
-#| msgid "<path>"
+#, no-wrap, priority:280
 msgid "_<path>_"
-msgstr "<path>"
+msgstr "_<путь>_"
 
 #. type: Table
 #: en/git-status.adoc:375
